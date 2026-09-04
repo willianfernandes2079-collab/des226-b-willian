@@ -1,3 +1,5 @@
+const prompt = require("prompt-sync")();
+
 const favorito = "Vingadores: Ultimato";
 const nota = 9.5;
 const recomenda = true;
