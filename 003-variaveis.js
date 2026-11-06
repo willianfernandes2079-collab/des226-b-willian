@@ -33,17 +33,17 @@ console.log('variável: função ' + typeof(função));
 // variaveis definidas sem valor
 
 let nomeDigitado;
-let idadedigitada;
-let trabalhaDgitado;
+let idadeDigitada;
+let trabalhaDigitado;
 
 // dando valor às variaveis
 
 nomeDigitado = entrada ('Digite seu nome: ');
-idadeDigitado = entrada ('Qual a sua idade: ');
+idadeDigitada = entrada ('Qual a sua idade: ');
 trabalhaDigitado = entrada ('Você trabalha:' );
 
 console.log('nome: ' + nomeDigitado + ' - tipo: ' + typeof(nomeDigitado));
-console.log('idade: ' + idadedigitada + ' - tipo: ' + typeof(idadedigitada));
-console.log('trabalha: ' + trabalhaDgitado + ' - tipo: ' + typeof(trabalhaDgitado));
+console.log('idade: ' + idadeDigitada + ' - tipo: ' + typeof(idadeDigitada));
+console.log('trabalha: ' + trabalhaDigitado + ' - tipo: ' + typeof(trabalhaDigitado));
 
 

@@ -16,12 +16,11 @@ const disciplinas = [
 
 // 4. Arrow function que recebe os dados e imprime o log
 const registrarAcesso = (nome, matricula, disciplinas, data) => {
-    console.log("\n== LOG DE ACESSO ==");
+    console.log("\n LOG DE ACESSO");
     console.log(`Aluno: ${nome}`);
     console.log(`Matricula: ${matricula}`);
     console.log(`Disciplinas: ${disciplinas.join(", ")}`);
     console.log(`Data e hora do registro: ${data.toLocaleString()}`);
-    console.log("========================");
 };
 
 // Chamada da funcao

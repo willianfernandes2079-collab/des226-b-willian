@@ -4,7 +4,7 @@ const produto = {
     nome: "Teclado Gamer",
     preco: 199.90,
     disponibilidade: true,
-    tags: ["eletronicos", "perfiféricos", "gamer"]
+    tags: ["eletronicos", "periféricos", "gamer"]
 };
 
 console.log(produto);

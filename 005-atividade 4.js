@@ -1,13 +1,14 @@
 const prompt = require("prompt-sync")();
 
-const cpf = prompt("Digite seu CPF: ");
-const email = prompt("Digite seu e-mail: ");
+// 1. Guarda os dois valores em variaveis
+let num1 = prompt("Digite o primeiro numero: ");
+let num2 = prompt("Digite o segundo numero: ");
 
+// 2. Junta os textos digitados, pois prompt retorna uma string
+let soma = num1 + num2;
 
+console.log("Resultado:", soma);
 
-const cpfRegex = /^\d{3}\.?\d{3}\.?\d{3}-?\d{2}$/;
-const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-console.log("CPF válido: ", cpfRegex.test(cpf));
-console.log("E-mail válido: ", emailRegex.test(email));
-
+// 3. Exibe o tipo de num1 e de soma
+console.log("Tipo de num1:", typeof num1);
+console.log("Tipo de soma:", typeof soma);
